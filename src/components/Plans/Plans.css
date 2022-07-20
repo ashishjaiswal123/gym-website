@@ -86,10 +86,10 @@
         gap: 0;
     }
     .plans>:nth-child(2){
-        transform: scale(0.8);
+        transform: scale(1);
+        margin: 2rem 0;
     }
     .plan{
-        transform: scale(0.8);
         gap: 1rem;
     }
 }

@@ -101,4 +101,7 @@
         display: block;
         bottom: 0; left: 0;
     }
+    .right-t>:last-child > img{
+        margin: 0 1rem;
+    }
 }
