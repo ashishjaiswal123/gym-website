@@ -75,3 +75,21 @@
     top: 10rem;
     right: 0rem;
 }
+
+
+@media screen and (max-width : 768px) {
+    .plans-container{
+        gap: 1rem;
+    }
+    .plans{
+        flex-direction: column;
+        gap: 0;
+    }
+    .plans>:nth-child(2){
+        transform: scale(0.8);
+    }
+    .plan{
+        transform: scale(0.8);
+        gap: 1rem;
+    }
+}
